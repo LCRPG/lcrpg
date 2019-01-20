@@ -12,10 +12,8 @@ What are the components? List them out.
 
 # Gameplay
 
-What does each turn look like? Describe a turn. 
+What does each turn look like? Describe a turn.
 
 # Scoring
 
 How is victory assigned?
-
-
