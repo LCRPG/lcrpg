@@ -1,0 +1,6 @@
+name,type,text
+Punch,Action - Major,Deal 4 damage to an adjacent target
+Dodge,Action - Major,Damage you take is reduced by your LUCK until your next turn
+Block,Action - Major,Physical Damage you take is reduced by half until your next turn
+Longsword,Equipment - 2 Hands,You gain 'Minor Action: Deal 5 damage to an adjacent target'
+Shield,Equipment - One Hand,Block Actions you take instead prevent all physical damage.
