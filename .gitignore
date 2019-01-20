@@ -10,10 +10,9 @@
 /test/version_tmp/
 /tmp/
 /squib/_output/*.png
-_output/*.pdf
+/squib/_output/*.pdf
 ~$*
 .DS_Store
-
 
 # Used by dotenv library to load environment variables.
 # .env
