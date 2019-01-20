@@ -1,6 +1,6 @@
 action:
   extends: ur
-  file: 'jump-across'
+  file: "jump-across"
 equipment:
   extends: ur
-  file: 'battle-gear'
+  file: "battle-gear"
