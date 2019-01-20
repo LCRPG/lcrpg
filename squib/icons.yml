@@ -1,0 +1,6 @@
+action:
+  extends: ur
+  file: 'jump-across'
+equipment:
+  extends: ur
+  file: 'battle-gear'

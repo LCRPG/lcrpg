@@ -9,8 +9,10 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-/squib/_output/*
-!/squib/_output/gitkeep.txt
+/squib/_output/*.png
+/squib/_output/*.pdf
+~$*
+.DS_Store
 
 # Used by dotenv library to load environment variables.
 # .env
