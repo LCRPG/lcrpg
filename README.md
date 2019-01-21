@@ -17,4 +17,5 @@ We are planning to use [Squib](https://squib.rocks) for our card creation
 ## Getting Started
 
 Squib depends on Ruby, and we are using Ruby 2.5.3 which you can get [here](https://www.ruby-lang.org/en/downloads/)
-After that, follow the instructions [here](https://squib.readthedocs.io/en/v0.14.0/install.html) for installing Squib.
+Change to the squib directory and run `gem install bundler`. Then, run `bundler install`.
+From there, running `ruby deck.rb` will generate the card files in squib/_output
