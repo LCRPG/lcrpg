@@ -45,7 +45,7 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   rect layout: 'cut' # cut line as defined by TheGameCrafter
   rect layout: 'safe' # safe zone as defined by TheGameCrafter
   text str: data['name'], layout: 'title'
-  text str: data['text'].map { |text| text.gsub(/\\n/,"\n") }, layout: 'description', font: 'Sans 8'
+  text str: data['text'].map { |text| text.gsub(/\\n/,"\n") }, layout: 'monsterText', font: 'Sans 8'
   text str: data['name'], layout: 'art'
   svg file: GameIcons.get('hearts').file, layout: 'bonus1'
   text str: data['Health'], layout: 'bonus1Text'

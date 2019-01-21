@@ -7,6 +7,10 @@ bonus2Text:
   y: += 60
   align: :center
 bonus3Text:
-  extends: bonus2
+  extends: bonus3
   y: += 60
   align: :center
+monsterText:
+  extends: description
+  y: += -100
+  height: += 100
