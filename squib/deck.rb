@@ -51,5 +51,7 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['Health'], layout: 'bonus1Text'
   svg file: GameIcons.get('shield').file, layout: 'bonus2'
   text str: data['DR'], layout: 'bonus2Text'
+  svg file: GameIcons.get('walking-boot').file, layout: 'bonus3'
+  text str: data['Speed'], layout: 'bonus3Text'
   save_pdf trim: 37.5, file: "monsters.pdf"
 end
