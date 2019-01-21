@@ -1,0 +1,4 @@
+name,Qty,icon,type,art,text
+Punch,2,action,Major,punch,Deal 4 damage to an adjacent target
+Dodge,1,action,Major,dodging,Damage you take is reduced by your LUCK until your next turn
+Block,1,action,Major,swordman,Physical Damage you take is reduced by half until your next turn
