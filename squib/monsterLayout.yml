@@ -1,0 +1,8 @@
+bonus1Text:
+  extends: bonus1
+  y: += 60
+  align: :center
+bonus2Text:
+  extends: bonus2
+  y: += 60
+  align: :center
