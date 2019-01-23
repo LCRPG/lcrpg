@@ -10,11 +10,11 @@ Taunt,5,action,Minor,shouting,Adjacent enemies can't use major actions next turn
 Assassinate,5,action,Major,knife-thrust,Deal 7 damage to target enemy. Damage that you take is increased by 1 until your next turn.
 Purify,5,action,Minor,incense,Kill target undead creature.
 Shifting Earth,5,action,Minor,earth-spit,Change the row of up to 3 targets.
-Duel,3,action,Major,sabers-choc,Deal W damage to an adjacent target. Until your next turn, that target can't take actions unless they target you.
-Poison,3,action,Major,poison-bottle,Target enemy takes 4 poison damage at the beginning of each of their turns. At the end of each of their turns, they can make a physique save to cure this.
+Duel,3,action,Major,sabers-choc,Deal W damage to an adjacent target. Until your next turn that target can't take actions unless they target you.
+Poison,3,action,Major,poison-bottle,Target enemy takes 4 poison damage at the beginning of each of their turns. At the end of each of their turns they can make a physique save to cure this.
 Sunburst,3,action,Minor,explosion-rays,Deal 3 holy damage to each enemy.
 Blinding Spray,3,action,Major,circle-sparks,Up to 3 enemies attack as if their opponents are dodging until your next turn.
-Surge,2,action,Minor,defibrilate,Regain 5 life. Until your next turn, reduce damage dealt to you by 2.
+Surge,2,action,Minor,defibrilate,Regain 5 life. Until your next turn reduce damage dealt to you by 2.
 Sunder,2,action,Minor,armor-downgrade,Reduce target's damage resistance by 5. It can't go lower than 0.
 Mass Heal,2,action,Major,embrassed-energy,Each ally regains 5 hp.
-Fireball,2,action,Major,fireball,Deal 5 fire damage to target enemy, and each enemy adjacent to them.
+Fireball,2,action,Major,fireball,Deal 5 fire damage to target enemy and each enemy adjacent to them.
