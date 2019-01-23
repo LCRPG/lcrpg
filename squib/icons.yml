@@ -4,3 +4,6 @@ action:
 equipment:
   extends: ur
   file: "battle-gear"
+upgrade:
+  extends: ur
+  file: "upgrade"

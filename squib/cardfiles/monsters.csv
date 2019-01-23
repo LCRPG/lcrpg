@@ -1,6 +1,6 @@
 name,Qty,Health,DR,Speed,text
-Goblin,3,5,1,2,Major: Deal 3 damage to an adjacent target\n\nMinor: Deal 2 damage to a target
-Ogre,2,10,2,5,Major: Deal 5 damage to an adjacent target\n\nMajor: Deal 3 damage to an adjacent target\nand 2 damage to a target adjacent to that target
-Skeleton Archer,2,4,2,3,Major: deal 4 damage to a target\n\nMinor: Regain 1 health
-Zombie,4,3,1,1,Major: Deal 3 damage to an adjacent target
-Necromancer,1,15,1,7,Major: Summon a Zombie\n\nMinor: deal 2 necrotic damage to a target
+Goblin,3,20,1,2,Major: Deal 3 damage to an adjacent target\n\nMinor: Deal 2 damage to a target
+Ogre,2,40,2,5,Major: Deal 5 damage to an adjacent target\n\nMajor: Deal 3 damage to an adjacent target\nand 2 damage to a target adjacent to that target
+Skeleton Archer,2,16,2,3,Major: deal 4 damage to a target\n\nMinor: Regain 2 health
+Zombie,4,6,1,1,Major: Deal 3 damage to an adjacent target
+Necromancer,1,60,1,7,Major: Summon a Zombie\n\nMinor: deal 2 necrotic damage to a target
