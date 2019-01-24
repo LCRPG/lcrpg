@@ -4,11 +4,11 @@
 
 LCRPG has 6 damage types:  
 Fire: <img src="../../resources/images/fire.svg" alt="fire" width="25"/>  
-Cold:  
-Lightning:   
-Physical:  
-Psychic:  
-Yeet:  
+Cold: <img src="../../resources/images/cold.svg" alt="fire" width="25"/>  
+Lightning: <img src="../../resources/images/lightning.svg" alt="fire" width="25"/>   
+Physical: <img src="../../resources/images/physical.svg" alt="fire" width="25"/>  
+Psychic: <img src="../../resources/images/psychic.svg" alt="fire" width="25"/>  
+Yeet: <img src="../../resources/images/yeet.svg" alt="fire" width="25"/>  
 
 ## Armor
 
