@@ -2,5 +2,5 @@
 
 ## Damage
 
-LCRPG has 6 damage types:
+LCRPG has 6 damage types:  
 Fire: <img src="./flamer.svg" alt="fire" width="25"/>
