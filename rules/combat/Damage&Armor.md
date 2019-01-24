@@ -3,7 +3,7 @@
 ## Damage
 
 LCRPG has 6 damage types:  
-Fire: <img src="./flamer.svg" alt="fire" width="25"/>  
+Fire: <img src="../../resources/images/fire.svg" alt="fire" width="25"/>  
 Cold:  
 Lightning:   
 Physical:  
