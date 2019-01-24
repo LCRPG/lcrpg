@@ -3,4 +3,4 @@
 ## Damage
 
 LCRPG has 6 damage types:
-Fire: ![fire](./flamer.svg =250x250 "fire")
+Fire: <img src="./flamer.svg" alt="fire" width="200"/>
