@@ -14,8 +14,8 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['name'], layout: 'title'
   text str: data['text'], layout: 'description'
   text str: data['type'], layout: 'type'
-  svg file: data['art'].map { |x| GameIcons.get(x).file}, layout: 'art'
-  svg file: data['icon'].map { |x| GameIcons.get(icons[x]['file']).file }, layout: data['icon']
+  svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/abilities/#{x}.svg"}, layout: 'art'
+  svg layout: data['icon']
   save_pdf trim: 37.5, file: "abilities.pdf"
 end
 
@@ -31,8 +31,8 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['name'], layout: 'title'
   text str: data['text'], layout: 'description'
   text str: data['type'], layout: 'type'
-  svg file: data['art'].map { |x| GameIcons.get(x).file}, layout: 'art'
-  svg file: data['icon'].map { |x| GameIcons.get(icons[x]['file']).file }, layout: data['icon']
+  svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/equipment/#{x}.svg"}, layout: 'art'
+  svg layout: data['icon']
   save_pdf trim: 37.5, file: "equipment.pdf"
 end
 
