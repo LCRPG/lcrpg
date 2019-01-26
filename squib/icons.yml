@@ -1,9 +1,9 @@
 action:
   extends: ur
-  file: "jump-across"
+  file: "../resources/images/icons/jump-across.svg"
 equipment:
   extends: ur
-  file: "battle-gear"
+  file: "../resources/images/icons/battle-gear.svg"
 upgrade:
   extends: ur
-  file: "upgrade"
+  file: "../resources/images/icons/upgrade.svg"
