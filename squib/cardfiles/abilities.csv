@@ -1,9 +1,9 @@
 name,Qty,icon,type,text
-Dodge,3,upgrade,Major,Attach this to your character for one turn.\n\nDamage you take is reduced by your LUCK.
-Block,6,upgrade,Major,Attach this to your character for one turn.\n\nPhysical Damage you take is reduced by half.
+Dodge,3,upgrade,minor,Attach this to your character for one turn.\n\nDamage you take is reduced by your LUCK.
+Block,6,upgrade,Major,attachach this to your character for one turn.\n\nPhysical Damage you take is reduced by half.
 Mage Armor,5,upgrade,Major,Attach this to your character for two turns.\n\nDamage you take is reduced by 2.
 Cleave,5,action,Major,Deal W damage to each adjacent enemy.
-Sabotage,5,action,Major,Attach this to an Enemy.\n\n When this character takes a major action they take it against themselves instead. Then they discard this card.
+Sabotage,5,upgrade,Major,Attach this to an Enemy.\n\n When this character takes a major action they take it against themselves instead. Then they discard this card.
 Second Wind,5,action,Major,Target ally shuffles their graveyard into their library. gains 5 hp. and draws a card
 Magic Missile,5,action,Major,Up to two target enemies take 5 magic damage
 Taunt,5,upgrade,Minor,Attach this to your character for one turn.\n\nAdjacent enemies can't use major actions unless they target you.
