@@ -2,8 +2,9 @@ require 'squib'
 require 'game_icons'
 require 'yaml'
 
+def buildAbilities(cardfile="cardfiles/abilities.csv", outputFile="abilities.pdf")
 #All Ability Cards
-data = Squib.csv file: "cardfiles/abilities.csv"
+data = Squib.csv file: cardfile
 layouts = ['fantasy.yml', 'icons.yml']
 icons =  YAML.load(File.read('icons.yml'))
 
@@ -16,11 +17,13 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['type'], layout: 'type'
   svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/abilities/#{x}.svg"}, layout: 'art'
   svg layout: data['icon']
-  save_pdf trim: 37.5, file: "abilities.pdf"
+  save_pdf trim: 37.5, file: outputFile
+end
 end
 
+def buildEquipment(cardfile="cardfiles/equipment.csv", outputFile="equipment.pdf")
 #All Equipment Cards
-data = Squib.csv file: "cardfiles/equipment.csv"
+data = Squib.csv file: cardfile
 layouts = ['fantasy.yml', 'icons.yml']
 icons =  YAML.load(File.read('icons.yml'))
 
@@ -33,11 +36,13 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['type'], layout: 'type'
   svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/equipment/#{x}.svg"}, layout: 'art'
   svg layout: data['icon']
-  save_pdf trim: 37.5, file: "equipment.pdf"
+  save_pdf trim: 37.5, file: outputFile
+end
 end
 
+def buildMonsters(cardfile="cardfiles/monsters.csv", outputFile="monsters.pdf")
 #All Monster Cards
-data = Squib.csv file: "cardfiles/monsters.csv"
+data = Squib.csv file: cardfile
 layouts = ['hand.yml', 'monsterLayout.yml']
 
 Squib::Deck.new cards: data['name'].size, layout: layouts do
@@ -53,5 +58,6 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['DR'], layout: 'bonus2Text'
   svg file: GameIcons.get('walking-boot').file, layout: 'bonus3'
   text str: data['Speed'], layout: 'bonus3Text'
-  save_pdf trim: 37.5, file: "monsters.pdf"
+  save_pdf trim: 37.5, file: outputFile
+end
 end

@@ -1,7 +1,25 @@
 require 'squib'
+load 'deck.rb'
 
 task default: [:deck]
 
-task :deck do
-  load 'deck.rb'
+task :abilities, [:cardFile,:outputFile] do |task, args|
+    args.with_defaults(cardFile: "cardfiles/abilities.csv", outputFile: "abilities.pdf")
+    buildAbilities(args[:cardFile],args[:outputFile])
+end
+
+task :equipment, [:cardFile,:outputFile] do |task, args|
+    args.with_defaults(cardFile: "cardfiles/equipment.csv", outputFile: "equipment.pdf")
+    buildEquipment(args[:cardFile],args[:outputFile])
+end
+
+task :monsters, [:cardFile,:outputFile] do |task, args|
+    args.with_defaults(cardFile: "cardfiles/abilities.csv", outputFile: "monsters.pdf")
+    buildMonsters(args[:cardFile],args[:outputFile])
+end
+
+task :deck => [:abilities,:equipment,:monsters] do
+end
+
+task :noOp do
 end
