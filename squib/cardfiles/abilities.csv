@@ -30,7 +30,7 @@ Rockbiter,2,upgrade,Major - Enhancement,Attach Rockbiter to a Weapon you're wiel
 Stormhammer,3,upgrade,Minor - Enhancement,Attach Stormhammer to a Weapon you're wielding. That weapons gains 'When this weapon deals damage, gain 1 Momentum.'\n\nThen, deal X damage to an adjacent target, where X is that weapon's damage.\n\nIf more than one Enhancement is attached to the same item as Stormhammer, detatch one Enhancement.
 Flametongue,2,upgrade,Major - Enhancement,Attach Flametongue to a Weapon you're wielding. That weapon gains 'Whenever this weapon deals damage, deal an additional 2 Fire damage.'\n\nThen, deal X damage to an adjacent target, where X is that weapon's damage.\n\nIf more than one Enhancement is attached to the same item as Flametongue, detatch one Enhancement.
 Earthquake,3,action,Major,Costs X Momentum.\n\nDeal 3 + X physical damage to all targets in any rank. If X is 3 or greater, each target dealt damage by Earthquake can't take minor actions next turn.
-Chain Lightning,2,action,Major,Deal 3 lightning damage to any 3 targets.\n\nGain 2 Momentum.
+Chain Lightning,2,action,Major,"Deal 3 lightning damage to any 3 targets.\n\nGain 2 Momentum."
 Stoneward,2,upgrade,Minor - Enhancement,Attach Stoneward to your Armor. It gains 'Reduce physical damage taken by 1'.\n\nIf more than one Enhancement is attached to the same item as Stoneward, detatch one Enhancement.
 Grace of Air,2,upgrade,Minor - Enhancement,Attach Grace of Air to your Armor. It gains 'At the start of your turn, gain 1 Momentum.'\n\nIf more than one Enhancement is attached to the same item as Grace of Wind, detatch one Enhancement.
 Lava Flow,2,action,Major,Costs 4 Momentum.\n\nDeal 8 fire damage to all enemies in any file.
