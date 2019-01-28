@@ -4,7 +4,7 @@ require 'yaml'
 
 #All Ability Cards
 data = Squib.csv file: "cardfiles/abilities.csv"
-layouts = ['fantasy.yml', 'icons.yml']
+layouts = ['abilityLayout.yml', 'icons.yml']
 icons =  YAML.load(File.read('icons.yml'))
 
 Squib::Deck.new cards: data['name'].size, layout: layouts do
@@ -12,7 +12,7 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   rect layout: 'cut' # cut line as defined by TheGameCrafter
   rect layout: 'safe' # safe zone as defined by TheGameCrafter
   text str: data['name'], layout: 'title'
-  text str: data['text'], layout: 'description'
+  text str: data['text'].map { |text| text.gsub(/\\n/,"\n") }, layout: 'description'
   text str: data['type'], layout: 'type'
   svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/abilities/#{x}.svg"}, layout: 'art'
   svg layout: data['icon']

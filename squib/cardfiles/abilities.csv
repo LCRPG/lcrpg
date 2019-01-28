@@ -1,28 +1,28 @@
 name,Qty,icon,type,text
-Dodge,5,action,Major,Damage you take is reduced by your LUCK until your next turn
-Block,10,action,Major,Physical Damage you take is reduced by half until your next turn
-Mage Armor,5,upgrade,Major,Damage you take is reduced by 2 for your next 2 turns
+Dodge,3,upgrade,minor,Attach this to your character for one turn.\n\nDamage you take is reduced by your LUCK.
+Block,6,upgrade,Major,attachach this to your character for one turn.\n\nPhysical Damage you take is reduced by half.
+Mage Armor,5,upgrade,Major,Attach this to your character for two turns.\n\nDamage you take is reduced by 2.
 Cleave,5,action,Major,Deal W damage to each adjacent enemy.
-Sabotage,5,action,Major,The next time target enemy would take a major action they take it against themselves instead
-Second Wind,5,action,Major,"Target ally shuffles their graveyard into their library. gains 5 hp. and draws a card"
+Sabotage,5,upgrade,Major,Attach this to an Enemy.\n\n When this character takes a major action they take it against themselves instead. Then they discard this card.
+Second Wind,5,action,Major,Target ally shuffles their graveyard into their library. gains 5 hp. and draws a card
 Magic Missile,5,action,Major,Up to two target enemies take 5 magic damage
-Taunt,5,action,Minor,Adjacent enemies can't use major actions next turn unless they target you
-Assassinate,5,action,Major,Deal 7 damage to target enemy. Damage that you take is increased by 1 until your next turn.
+Taunt,5,upgrade,Minor,Attach this to your character for one turn.\n\nAdjacent enemies can't use major actions unless they target you.
+Assassinate,5,upgrade,Major,Deal 7 damage to target enemy then attach this to your character for one turn.\n\n Damage that you take is increased by 1.
 Purify,5,action,Minor,Kill target undead creature or draw a card.
-Shifting Earth,5,action,Minor,Change the row of up to 2 targets. Those targets may not move during their next turn.
-Duel,3,action,Major,Deal W damage to an adjacent target. Until your next turn that target can't take actions unless they target you.
-Poison,3,action,Major,Target enemy takes 4 poison damage at the beginning of each of their turns. At the end of each of their turns make a 'poison' check. If you fail this effect ends.
+Shifting Earth,5,action,Minor,Move up to 2 targets. Those targets may not move during their next turn.
+Duel,3,upgrade,Major,Deal W damage to an adjacent target then attach this card to that target for one turn.\n\nThis character can't take actions unless they target you.
+Poison,3,upgrade,Major,Attach this to an Enemy for 2 turns.\n\nAt the start of this character's turn they take 4 poison damage
 Sunburst,3,action,Minor,Deal 3 holy damage to each enemy.
 Blinding Spray,3,action,Major,Up to 3 enemies attack as if their opponents are dodging until your next turn.
-Surge,2,action,Minor,Regain 5 life. Until your next turn reduce damage dealt to you by 2.
-Sunder,2,action,Minor,Reduce target's damage resistance by 5. It can't go lower than 0.
+Surge,2,upgrade,Minor,Regain 5 life. Attach this card to your character.\n\nDamage dealt to you by 2.
+Sunder,2,upgrade,Minor,Attach this to an Enemy for one turn.\n\nReduce all of target's damage resistances by 5. They can't go lower than 0.
 Mass Heal,2,action,Major,Each ally regains 5 hp.
 Fireball,2,action,Major,Deal 5 fire damage to target enemy and each enemy adjacent to them.
-Dancing Blade,3,action,Minor,Deal 3 damage. then you may move
-Siphon Life,3,action,Major,Deal 3 Holy damage. then heal an Ally for the damage dealt
+Dancing Blade,3,action,Minor,Deal 3 damage. then you may move.
+Siphon Life,3,action,Major,Deal 3 Holy damage. Then heal an Ally for the damage dealt
 Chill Wind,3,action,Minor,Up to two targets can't take Minor actions during their next turn. Draw a Card.
 Double Slash,3,action,Major,Deal W damage to an adjacent target. then deal W damage to an adjacent target.
-Feint,3,action,Minor,The next time target enemy attacks you before your next turn prevent up to 5 damage from that attack. then deal W to them.
-Holy Aura,3,upgrade,Major,All damage target ally does is increased by 2 Holy for your next two turns
+Feint,3,upgrade,Minor,Attach this to an Enemy for one turn.\n\nThe next time target enemy attacks you prevent up to 5 damage from that attack. Then deal W to them. Then discard this card.
+Holy Aura,3,upgrade,Major,Attach this to an ally for two turn.\n\nAll damage this character does is increased by 2 Holy.
 Kidney Punch,3,action,Major,Deal W damage to an adjacent enemy. Draw a Card.
-Sleep,3,upgrade,Major,Discard a card. Target enemy can't take actions for your next 2 turns
+Sleep,3,upgrade,Major,Discard a card. Attach this to an Enemy for one turn.\n\nThis character can't take actions.
