@@ -17,7 +17,9 @@ steps:
 - script: |
     gem install bundler
     bundler install --retry=3 --jobs=4
+  workingDirectory: 'squib'
   displayName: 'bundle install'
 
 - script: rake
+  workingDirectory: 'squib'
   displayName: 'rake'
