@@ -26,3 +26,15 @@ Feint,3,upgrade,Minor,Attach this to an Enemy for one turn.\n\nThe next time tar
 Holy Aura,3,upgrade,Major,Attach this to an ally for two turn.\n\nAll damage this character does is increased by 2 Holy.
 Kidney Punch,3,action,Major,Deal W damage to an adjacent enemy. Draw a Card.
 Sleep,3,upgrade,Major,Discard a card. Attach this to an Enemy for one turn.\n\nThis character can't take actions.
+Water Stance,1,upgrade,Major - Stance,"The next 2 times you would take damage, deal that damage to the source of the damage instead\n\nAt the start of your turn, you may return a Stance to your hand. Only one Stance can be in play attached to you."
+Fire Stance,1,upgrade,Major - Stance,"Whenever you would deal damage, deal that + 2 fire damage instead. Whenever you take damage, take 1 additinal fire damage\n\nAt the start of your turn, you may return a Stance to your hand. Only one Stance can be in play attached to you."
+Earth Stance,1,upgrade,Major - Stance,"Increase your physical armor by 1. You cannot be moved by enemy abilities\n\nAt the start of your turn, you may return a Stance to your hand. Only one Stance can be in play attached to you"
+Wind Stance,1,upgrade,Major - Stance,"You are dodging. You may take one free move action on each of your turns.\n\nAt the start of your turn, you may return a Stance to your hand. Only one Stance can be in play attached to you"
+One Inch Punch,2,action,Major,"Deal 3 damage to an adjacent enemy, then you may move that enemy.\n\nIf you are in Fire Stance, this is a Minor action instead."
+Mighty Stomp,2,action,Major,"Deal 1 irreducible damage to adjacent enemies. They lose one Major action on their next turns. \n\nIf you are in Earth Stance, this is a Minor action instead."
+Ura Shuto,2,action,Major,"Deal 2 damage to an adjacent enemy. The next Major action they take targets themselves if possible.\n\nIf you are in Water Stance, this is a Minor action instead."
+Shukuchi,2,action,Major,"Attach this to your character for one turn.\n\nYou cannot be targeted by enemy actions.\n\nIf you are in Air Stance, this is a Minor action instead."
+Aura Burst,2,action,Major,"Put up to 4 cards from your deck into your discard.\n\n Deal 2+2*n damage to target adjacent enemy and each enemy on their file."
+Touch of Death,3,action,Major,"Deal 4 damage to an adjacent enemy. If this would reduce them to less than 3 health, destroy them instead."
+Meditate,1,action,Major,"Shuffle up to 10 cards of your choice from your discard into your deck. Exhaust."
+Focus Energy,2,upgrade,Major,"Attach this to your character until you next deal damage.\n\nYou deal double damage."
