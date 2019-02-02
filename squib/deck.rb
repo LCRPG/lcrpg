@@ -5,7 +5,7 @@ require 'yaml'
 def buildAbilities(cardfile="cardfiles/abilities.csv", outputFile="abilities.pdf")
 #All Ability Cards
 data = Squib.csv file: cardfile
-layouts = ['abilityLayout.yml', 'icons.yml']
+layouts = ['layouts/ability.yml', 'icons.yml']
 icons =  YAML.load(File.read('icons.yml'))
 
 Squib::Deck.new cards: data['name'].size, layout: layouts do
@@ -24,7 +24,7 @@ end
 def buildEquipment(cardfile="cardfiles/equipment.csv", outputFile="equipment.pdf")
 #All Equipment Cards
 data = Squib.csv file: cardfile
-layouts = ['fantasy.yml', 'icons.yml']
+layouts = ['layouts/equipment.yml', 'icons.yml']
 icons =  YAML.load(File.read('icons.yml'))
 
 Squib::Deck.new cards: data['name'].size, layout: layouts do
@@ -43,7 +43,7 @@ end
 def buildMonsters(cardfile="cardfiles/monsters.csv", outputFile="monsters.pdf")
 #All Monster Cards
 data = Squib.csv file: cardfile
-layouts = ['hand.yml', 'monsterLayout.yml']
+layouts = ['hand.yml', 'layouts/monster.yml']
 
 Squib::Deck.new cards: data['name'].size, layout: layouts do
   background color: 'white'
