@@ -8,3 +8,5 @@ Sling,1,equipment,One Hand,You gain 'Major Action: Deal 2 damage to a target'
 Staff,1,equipment,Two Hands,You gain 'Major Action: Deal 3 fire damage to a target'
 Mace,1,equipment,One Hand,You gain 'Major Action: deal 3 piercing damage to an adjacent target'
 Holy Symbol,1,equipment,One Hand,You gain 'Minor Action: Heal target ally for 1'
+Fists of Steel,1,equipment,Two Hands,Your unarmed attacks deal 1 extra physical damage and may be used as Minor actions.
+Boots of Speed,1,equipment,Feet,You may move as a free action once per turn.
