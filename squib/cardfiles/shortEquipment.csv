@@ -1,0 +1,6 @@
+name,Qty,icon,type,text
+Hammer,1,equipment,"One Hand, Weapon - Melee",Attack: Deal 3 damage to an adjacent target.
+Handaxe,1,equipment,"One Hand, Weapon - Melee",Minor Attack: Deal 2 damage to an adjacent target.
+Fists of Steel,1,equipment,Two Hands,Your unarmed attacks deal 1 extra physical damage and may be used as Minor actions.
+Boots of Speed,1,equipment,Feet,You may move as a free action once per turn.
+Leather Vest,2,equipment,Chest,Reduce all physical damage you take by 1.
