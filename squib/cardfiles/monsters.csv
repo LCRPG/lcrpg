@@ -7,5 +7,5 @@ Necromancer,1,60,1,7,Major: Summon a Zombie\n\nMinor: deal 2 necrotic damage to 
 Bandit,3,10,0,3,Major: Deal 4 Physical damage to an adjacent target
 Bandit Soldier,3,25,1,5,Major: Deal 5 Physical damage to an adjacent target\n\nMinor: Block
 Bandit Slinger,3,15,0,3,"Major: Deal 3 Physical damage to a target\n\nMajor(1): Deal 5 fire damage to a target, and 3 fire damage to each enemy adjacent to that target"
-Bandit Captain,2,30,1,7,Major: Deal 6 Physical damage to an adjacent target\n\nMinor: Other Ally Bandits deal an additional damage on all of their physical attacks until your next turn.
+Bandit Captain,2,30,1,7,Major: Deal 6 Physical damage to an adjacent target\n\nMinor: Other Ally Bandits deal +1 damage until your next turn.
 Bandit Lord,1,45,2,7,"Major: Deal 7 Physical damage to an adjacent target\n\nMinor: Summon a Bandit Soldier or Bandit Slinger"
