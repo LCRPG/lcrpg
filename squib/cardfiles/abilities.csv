@@ -1,6 +1,6 @@
 name,Qty,icon,type,text
-Dodge,3,upgrade,minor,Attach this to your character for one turn.\n\nDamage you take is reduced by your LUCK.
-Block,6,upgrade,Major,attachach this to your character for one turn.\n\nPhysical Damage you take is reduced by half.
+Dodge,3,upgrade,Minor,Attach this to your character for one turn.\n\nDamage you take is reduced by your LUCK.
+Block,6,upgrade,Major,Attach this to your character for one turn.\n\nPhysical Damage you take is reduced by half.
 Mage Armor,5,upgrade,Major,Attach this to your character for two turns.\n\nDamage you take is reduced by 2.
 Cleave,5,action,Major,Deal W damage to each adjacent enemy.
 Sabotage,5,upgrade,Major,Attach this to an Enemy.\n\n When this character takes a major action they take it against themselves instead. Then they discard this card.
@@ -26,3 +26,12 @@ Feint,3,upgrade,Minor,Attach this to an Enemy for one turn.\n\nThe next time tar
 Holy Aura,3,upgrade,Major,Attach this to an ally for two turn.\n\nAll damage this character does is increased by 2 Holy.
 Kidney Punch,3,action,Major,Deal W damage to an adjacent enemy. Draw a Card.
 Sleep,3,upgrade,Major,Discard a card. Attach this to an Enemy for one turn.\n\nThis character can't take actions.
+Earthforged,2,upgrade,Major - Enhancement,"Detatch all Enhancements from a weapon you're wielding. Then, attach this to that weapon.\n\nThat weapon gains 'All damage done with this weapon ignores armor.'\n\nThen, attack with that weapon."
+Stormhammer,3,upgrade,Minor - Enhancement,"Detatch all Enhancements from a weapon you're wielding. Then, attach this to that weapon.\n\nThat weapon gains 'Whenever this weapon deals damage, gain 1 Momentum.'\n\nThen, attack with that weapon."
+Flametongue,2,upgrade,Major - Enhancement,"Detatch all Enhancements from a weapon you're wielding. Then, attach this to that weapon.\n\nThat weapon gains 'Whenever this weapon deals damage, deal an additional 2 Fire damage.'\n\nThen, attack with that weapon."
+Twin Slam,3,action,Major,"Attack with each of your equipped Melee Weapons."
+Chain Lightning,2,action,Major,"Deal 3 lightning damage to any 3 targets.\n\nGain 2 Momentum."
+Stoneward,2,upgrade,Minor - Enhancement,"Detatch all Enhancements from your armor. Then, attach this to your armor.\n\nIt gains 'Reduce physical damage taken by 1'."
+Grace of Air,2,upgrade,Minor - Enhancement,"Detatch all Enhancements from your armor. Then, attach this to your armor.\n\nIt gains 'At the start of your turn, gain 1 Momentum.'"
+Lava Blast,2,action,Major,"Costs 4 Momentum.\n\nDeal 8 fire damage to all enemies in any file."
+Cleansing Water,2,action,Minor,"Restore 2 HP to any target. If you have 4 or more Momentum, restore 6 HP instead."
