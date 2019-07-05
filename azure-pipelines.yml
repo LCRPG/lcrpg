@@ -25,9 +25,6 @@ steps:
   displayName: 'rake'
 
 - task: PublishBuildArtifacts@1
-  displayName: 'publish pdf drop'
   inputs:
-    pathtoPublish: '/squib/_output'
-    artifactName: 'drop'
-    parallel: true
-    parallelCount: 8
+    pathtoPublish: 'squib/_output'
+    artifactName: outputFilesDrop
