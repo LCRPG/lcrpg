@@ -32,4 +32,4 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     pathtoPublish: 'squib/_output'
-    artifactName: outputFilesDrop
+    artifactName: printsheets
