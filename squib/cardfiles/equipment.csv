@@ -10,3 +10,5 @@ Mace,1,equipment,"One Hand, Weapon - Melee",Attack: Deal 3 piercing damage to an
 Holy Symbol,1,equipment,One Hand,You gain 'Minor: Heal target ally for 1.
 Hammer,1,equipment,"One Hand, Weapon - Melee",Attack: Deal 3 damage to an adjacent target.
 Handaxe,1,equipment,"One Hand, Weapon - Melee",Minor Attack: Deal 2 damage to an adjacent target.
+Fists of Steel,1,equipment,Two Hands,Your unarmed attacks deal 1 extra physical damage and may be used as Minor actions.
+Boots of Speed,1,equipment,Feet,You may move as a free action once per turn.

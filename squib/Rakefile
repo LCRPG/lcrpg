@@ -14,7 +14,7 @@ task :equipment, [:cardFile,:outputFile] do |task, args|
 end
 
 task :monsters, [:cardFile,:outputFile] do |task, args|
-    args.with_defaults(cardFile: "cardfiles/abilities.csv", outputFile: "monsters.pdf")
+    args.with_defaults(cardFile: "cardfiles/monsters.csv", outputFile: "monsters.pdf")
     buildMonsters(args[:cardFile],args[:outputFile])
 end
 
