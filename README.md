@@ -1,4 +1,5 @@
 # LCRPG
+[![Build Status](https://dev.azure.com/rpcg/rpcg/_apis/build/status/RPCG.rpcg?branchName=master)](https://dev.azure.com/rpcg/rpcg/_build/latest?definitionId=1&branchName=master)
 
 ## Introduction
 
@@ -30,3 +31,7 @@ If you just want one of the component files you can run
 if you want to pass it a custom csv to build a smaller pdf, you can run 
 `rake abilities["cardfiles/${input.csv}","${output.pdf}]`  
 replacing the input and output file names
+
+## Azure Pipelines and PR Review
+
+We use Azure Pipelines to provide a way to generate sample built print sheets to each Pull Request. You can view the build status by clicking on the Build Status badge at the top of this page. If you want to view the print sheets for a given build, navigate to the Build Summary tab and either download the `printsheets` artifact, or click the context menu to explore the artifact without downloading the entire ZIP folder.
