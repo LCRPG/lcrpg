@@ -15,6 +15,14 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['name'], layout: 'title'
   text str: data['text'].map { |text| text.gsub(/\\n/,"\n") }, layout: 'description'
   text str: data['type'], layout: 'type'
+  text str: data['str'], layout: 'str'
+  text str: data['agi'], layout: 'agi'
+  text str: data['klg'], layout: 'klg'
+  text str: data['wil'], layout: 'wil'
+  rect layout: 'str'
+  rect layout: 'agi'
+  rect layout: 'klg'
+  rect layout: 'wil'
   svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/abilities/#{x}.svg"}, layout: 'art'
   svg layout: data['icon']
   save_pdf trim: 37.5, file: outputFile
