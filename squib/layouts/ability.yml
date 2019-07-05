@@ -17,8 +17,32 @@ ur: # alias
 art:
   x: 75
   y: 225
-  width: 675
+  width: 600
   height: 520
+
+skill:
+  x: 650
+  width: 50
+  height: 50
+  valign: middle
+  align: center
+  font_size: 6
+
+str:
+  extends: skill
+  y: 225
+
+agi:
+  extends: skill
+  y: 300
+
+klg:
+  extends: skill
+  y: 375
+
+wil:
+  extends: skill
+  y: 450
 
 type:
   x: 90
