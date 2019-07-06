@@ -19,7 +19,7 @@ We are planning to use [Squib](https://squib.rocks) for our card creation
 
 Squib depends on Ruby, and we are using Ruby 2.5.3 (with devkit) which you can get [here](https://www.ruby-lang.org/en/downloads/). When prompted for what components to install, just hit enter.
 Change to the squib directory and run `gem install bundler`. Then, run `bundler install`.
-From there, running `rake` will generate the card files in squib/_output
+From there, running `rake` will generate the card files in squib/test
 
 ## More advanced builds
 
