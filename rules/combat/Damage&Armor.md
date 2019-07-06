@@ -2,7 +2,7 @@
 
 ## Damage
 
-LCRPG has 6 damage types:  
+RPCG has 6 damage types:  
 Fire: <img src="../../resources/images/fire.svg" alt="fire" width="25"/>  
 Cold: <img src="../../resources/images/cold.svg" alt="cold" width="25"/>  
 Lightning: <img src="../../resources/images/lightning.svg" alt="lightning" width="25"/>   
