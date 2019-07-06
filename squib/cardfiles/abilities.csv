@@ -3,29 +3,29 @@ Dodge,3,upgrade,Minor,Attach this to your character for one turn.\n\nDamage you 
 Block,6,upgrade,Major,Attach this to your character for one turn.\n\nPhysical Damage you take is reduced by half.,2,0,0,0
 Mage Armor,5,upgrade,Major,Attach this to your character for two turns.\n\nDamage you take is reduced by 2.,0,0,2,0
 Cleave,5,action,Major,Make a weapon attack against each adjacent enemy.,3,1,0,0
-Sabotage,5,upgrade,Major,"Attach this to an Enemy.\n\n When this character takes a major action they take it against themselves instead, then they discard this card.",1,3,1,0
-Second Wind,5,action,Major,"Target ally shuffles their graveyard into their library, gains 2*WIL3 hp, and draws a card.",0,0,1,3
+Sabotage,2,upgrade,Major,"Attach this to an Enemy.\n\n When this character takes a major action they take it against themselves instead, then they discard this card.",1,3,1,0
+Second Wind,4,action,Major,"Target ally shuffles their graveyard into their library, gains 2*WIL3 hp, and draws a card.",0,0,1,3
 Magic Missile,5,action,Major,Up to two target enemies take 5 magic damage.,0,0,2,2
 Taunt,5,upgrade,Minor,Attach this to your character for one turn.\n\nAdjacent enemies can't use major actions unless they target you.,0,0,0,3
 Assassinate,5,upgrade,Major,"Deal 3*AGI3 damage to target enemy, then attach this to your character for one turn.\n\n Damage that you take is increased by 1.",1,3,0,0
-Purify,5,action,Minor,Kill target undead creature or draw a card.,0,0,1,3
-Shifting Earth,5,action,Minor,Move up to 2 targets. Those targets may not move during their next turn.,0,1,2,0
+Purify,3,action,Minor,Kill target undead creature or draw a card.,0,0,1,3
+Shifting Earth,3,action,Minor,Move up to 2 targets. Those targets may not move during their next turn.,0,1,2,0
 Duel,3,upgrade,Major,"Make a weapon attack against an adjacent enemy, then attach this card to that target for one turn.\n\nThis character can't take actions unless they target you.",2,0,0,2
-Poison,3,upgrade,Major,Attach this to an Enemy for 2 turns.\n\nAt the start of this character's turn they take 4 poison damage,0,1,2,0
+Poison,2,upgrade,Major,Attach this to an Enemy for 2 turns.\n\nAt the start of this character's turn they take 4 poison damage,0,1,2,0
 Sunburst,3,action,Minor,Deal WIL3 holy damage to each enemy.,0,0,1,2
-Blinding Spray,3,action,Major,Up to 3 enemies attack as if their opponents are dodging until your next turn.,0,3,1,0
+Blinding Spray,2,action,Major,Up to 3 enemies attack as if their opponents are dodging until your next turn.,0,3,1,0
 Surge,2,upgrade,Minor,Regain 2*WIL3 life. Attach this card to your character for one turn.\n\nDamage dealt by you is increased by 2.,2,0,0,2
 Sunder,2,upgrade,Minor,Attach this to an Enemy for one turn.\n\nReduce all of target's damage resistances by 2*KLG3 or 2*STR3. They can't go lower than 0.,3,0,1,0
-Mass Heal,2,action,Major,Each ally regains 2*WIL hp.,0,0,0,4
+Mass Heal,2,action,Major,Each ally regains 2*WIL3 hp.,0,0,0,4
 Fireball,2,action,Major,Deal 2*KLG3 fire damage to target enemy and each enemy adjacent to them.,0,0,4,0
 Dancing Blade,3,action,Minor,"Deal AGI3 damage, then you may move.",1,3,0,0
 Siphon Life,3,action,Major,Deal WIL3 Holy damage. Then heal an Ally for the damage dealt.,0,0,2,2
 Chill Wind,3,action,Minor,Up to two targets can't take Minor actions during their next turn. Draw a Card.,0,0,3,0
 Double Slash,3,action,Major,"Make a weapon attack against an adjacent enemy, then make a weapon attack against an adjacent enemy.",3,1,0,0
 Feint,3,upgrade,Minor,"Attach this to an Enemy for one turn.\n\nThe next time target enemy attacks you prevent up to 5 damage from that attack, then make a weapon attack against them, then discard this card.",1,3,0,0
-Holy Aura,3,upgrade,Major,Attach this to an ally for two turns.\n\nAll damage this character does is increased by 2 Holy.,1,0,0,3
+Holy Aura,2,upgrade,Major,Attach this to an ally for two turns.\n\nAll damage this character does is increased by 2 Holy.,1,0,0,3
 Kidney Punch,3,action,Major,"Make a weapon attack against an adjacent enemy, then draw a card.",2,2,0,0
-Sleep,3,upgrade,Major,Discard a card. Attach this to an Enemy for one turn.\n\nThis character can't take actions.,0,0,3,1
+Sleep,2,upgrade,Major,Discard a card. Attach this to an Enemy for one turn.\n\nThis character can't take actions.,0,0,3,1
 Water Stance,1,upgrade,Major - Stance,"The next 2 times you would take damage, deal that damage to the source of the damage instead\n\nAt the start of your turn, you may return a Stance to your hand. ",0,2,0,2
 Fire Stance,1,upgrade,Major - Stance,"Whenever you would deal damage, deal that + 2 fire damage instead. Whenever you take damage, take 1 additinal fire damage\n\nAt the start of your turn, you may return a Stance to your hand. ",0,2,0,2
 Earth Stance,1,upgrade,Major - Stance,"Increase your physical armor by 1. You cannot be moved by enemy abilities\n\nAt the start of your turn, you may return a Stance to your hand.",0,2,0,2
@@ -34,7 +34,7 @@ One Inch Punch,2,action,Major,"Deal STR3 damage to an adjacent enemy, then you m
 Mighty Stomp,2,action,Major,"Deal 1 irreducible damage to adjacent enemies. They lose one Major action on their next turns. \n\nIf you are in Earth Stance, this is a Minor action instead.",3,1,0,0
 Ura Shuto,2,action,Major,"Deal AGI3 damage to an adjacent enemy. The next Major action they take targets themselves if possible.\n\nIf you are in Water Stance, this is a Minor action instead.",0,1,0,3
 Shukuchi,2,action,Major,"Attach this to your character for one turn.\n\nYou cannot be targeted by enemy actions.\n\nIf you are in Air Stance, this is a Minor action instead.",0,4,0,0
-Aura Burst,2,action,Major,Put up to 4 cards from your deck into your discard.\n\n Deal damage equal to the sum of the STR3 on those cards to target adjacent enemy and each enemy on their file.,2,0,0,2
+Aura Burst,2,action,Major,Put up to 4 cards from your deck into your discard.\n\n Deal damage equal to the sum of the STR on those cards to target adjacent enemy and each enemy on their file.,2,0,0,2
 Touch of Death,3,action,Major,"Deal 2*STR3 damage to an adjacent enemy. If this would reduce them to less than 3 or less health, destroy them instead.",2,0,2,0
 Meditate,1,action,Major,Shuffle up to 10 cards of your choice from your discard into your deck. Exhaust.,0,0,0,4
 Focus Energy,2,upgrade,Major,Attach this to your character until you next deal damage.\n\nYou deal double damage.,1,0,0,3
@@ -47,3 +47,5 @@ Stoneward,2,upgrade,Minor - Armor Enhancement,This Armor gains 'Reduce physical 
 Grace of Air,2,upgrade,Minor - Armor Enhancement,"This Armor gains 'At the start of your turn, gain 1 Momentum.'",0,1,1,2
 Lava Blast,2,action,Major,Costs 4 Momentum.\n\nDeal 3*WIL3 fire damage to all enemies in any file.,2,0,0,3
 Cleansing Water,2,action,Minor,"Restore WIL HP to any target. If you have 4 or more Momentum, restore 3*WIL3 HP instead.",0,0,1,3
+Ice Lance,3,action,Minor,"Deal KLG3 cold damage to any target",0,0,2,0
+Holy Blow,3,action,Major,"Make a weapon attack against an adjacent enemy. This attack deals an additional 3 Holy damage.",2,0,0,2

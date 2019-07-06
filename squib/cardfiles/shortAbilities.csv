@@ -1,22 +1,3 @@
-name,Qty,icon,type,text
-Water Stance,1,upgrade,Major - Stance,"The next 2 times you would take damage, deal that damage to the source of the damage instead\n\nAt the start of your turn, you may return a Stance to your hand. Only one Stance can be in play attached to you."
-Fire Stance,1,upgrade,Major - Stance,"Whenever you would deal damage, deal that + 2 fire damage instead. Whenever you take damage, take 1 additinal fire damage\n\nAt the start of your turn, you may return a Stance to your hand. Only one Stance can be in play attached to you."
-Earth Stance,1,upgrade,Major - Stance,"Increase your physical armor by 1. You cannot be moved by enemy abilities\n\nAt the start of your turn, you may return a Stance to your hand. Only one Stance can be in play attached to you"
-Wind Stance,1,upgrade,Major - Stance,"You are dodging. You may take one free move action on each of your turns.\n\nAt the start of your turn, you may return a Stance to your hand. Only one Stance can be in play attached to you"
-One Inch Punch,2,action,Major,"Deal 3 damage to an adjacent enemy, then you may move that enemy.\n\nIf you are in Fire Stance, this is a Minor action instead."
-Mighty Stomp,2,action,Major,"Deal 1 irreducible damage to adjacent enemies. They lose one Major action on their next turns. \n\nIf you are in Earth Stance, this is a Minor action instead."
-Ura Shuto,2,action,Major,"Deal 2 damage to an adjacent enemy. The next Major action they take targets themselves if possible.\n\nIf you are in Water Stance, this is a Minor action instead."
-Shukuchi,2,action,Major,"Attach this to your character for one turn.\n\nYou cannot be targeted by enemy actions.\n\nIf you are in Air Stance, this is a Minor action instead."
-Aura Burst,2,action,Major,"Put up to 4 cards from your deck into your discard.\n\n Deal 2+2*n damage to target adjacent enemy and each enemy on their file."
-Touch of Death,3,action,Major,"Deal 4 damage to an adjacent enemy. If this would reduce them to less than 3 health, destroy them instead."
-Meditate,1,action,Major,"Shuffle up to 10 cards of your choice from your discard into your deck. Exhaust."
-Focus Energy,2,upgrade,Major,"Attach this to your character until you next deal damage.\n\nYou deal double damage."
-Earthforged,2,upgrade,Major - Enhancement,"Detatch all Enhancements from a weapon you're wielding. Then, attach this to that weapon.\n\nThat weapon gains 'All damage done with this weapon ignores armor.'\n\nThen, attack with that weapon."
-Stormhammer,3,upgrade,Minor - Enhancement,"Detatch all Enhancements from a weapon you're wielding. Then, attach this to that weapon.\n\nThat weapon gains 'Whenever this weapon deals damage, gain 1 Momentum.'\n\nThen, attack with that weapon."
-Flametongue,2,upgrade,Major - Enhancement,"Detatch all Enhancements from a weapon you're wielding. Then, attach this to that weapon.\n\nThat weapon gains 'Whenever this weapon deals damage, deal an additional 2 Fire damage.'\n\nThen, attack with that weapon."
-Twin Slam,3,action,Major,"Attack with each of your equipped Melee Weapons."
-Chain Lightning,2,action,Major,"Deal 3 lightning damage to any 3 targets.\n\nGain 2 Momentum."
-Stoneward,2,upgrade,Minor - Enhancement,"Detatch all Enhancements from your armor. Then, attach this to your armor.\n\nIt gains 'Reduce physical damage taken by 1'."
-Grace of Air,2,upgrade,Minor - Enhancement,"Detatch all Enhancements from your armor. Then, attach this to your armor.\n\nIt gains 'At the start of your turn, gain 1 Momentum.'"
-Lava Blast,2,action,Major,"Costs 4 Momentum.\n\nDeal 8 fire damage to all enemies in any file."
-Cleansing Water,2,action,Minor,"Restore 2 HP to any target. If you have 4 or more Momentum, restore 6 HP instead."
+name,Qty,icon,type,text,str,agi,klg,wil
+Ice Lance,3,action,Minor,"Deal KLG3 cold damage to any target",0,0,2,0
+Holy Blow,3,action,Major,"Make a weapon attack against an adjacent enemy. This attack deals an additional 3 Holy damage.",2,0,0,2
