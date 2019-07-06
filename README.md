@@ -1,9 +1,9 @@
-# LCRPG
+# RPCG
 [![Build Status](https://dev.azure.com/rpcg/rpcg/_apis/build/status/RPCG.rpcg?branchName=master)](https://dev.azure.com/rpcg/rpcg/_build/latest?definitionId=1&branchName=master)
 
 ## Introduction
 
-Welcome to the LCRPG Project. We are trying to build an RPG system where the randomness is in the cards, not in dice.
+Welcome to the RPCG Project. We are trying to build an RPG system where the randomness is in the cards, not in dice.
 
 ## Rulebook
 

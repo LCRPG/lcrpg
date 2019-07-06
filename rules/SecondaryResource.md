@@ -1,6 +1,6 @@
 # Momentum
 
-Some cards in LCRPG use a resource called Momentum. In $SETTING_NAME, some characters become more powerful as they get into the flow of battle. You'll find cards that generate Momentum, spend it, and cards that are more effective if you have enough of it. As an example, here's a few cards:
+Some cards in RPCG use a resource called Momentum. In $SETTING_NAME, some characters become more powerful as they get into the flow of battle. You'll find cards that generate Momentum, spend it, and cards that are more effective if you have enough of it. As an example, here's a few cards:
 
 ### Dynamic Entry
 

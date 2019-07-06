@@ -1,3 +1,3 @@
 ## Introduction
 
-LCRPG stands for "Living Card Role-Playing Game", 
+RPCG stands for "Role-Playing Card Game"
