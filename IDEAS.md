@@ -25,3 +25,5 @@
 - retreating???
 - movement (lower priority)
 - templating cards
+
+yes
