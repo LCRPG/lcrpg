@@ -3,9 +3,9 @@ Longsword,1,equipment,"One Hand, Weapon - Melee",Attack: Deal 2 * STR3 damage to
 Shield,1,equipment,One Hand,Block Actions you take instead prevent all physical damage.
 Plate Armor,2,equipment,Chest,Reduce all physical damage you take by 2.
 Leather Vest,3,equipment,Chest,Reduce all physical damage you take by 1.
-Dagger,1,equipment,"One Hand, Weapon - Melee",Minor Attack: Deal AGI3 damage to an adjacent target.
-Sling,1,equipment,"One Hand, Weapon - Ranged",Attack: Deal AGI3 damage to a target.
-Staff,1,equipment,"Two Hands, Weapon - Ranged",Attack: Deal KLG3 fire damage to a target.
+Dagger,1,equipment,"One Hand, Weapon - Melee",Minor Attack: Deal DEX3 damage to an adjacent target.
+Sling,1,equipment,"One Hand, Weapon - Ranged",Attack: Deal DEX3 damage to a target.
+Staff,1,equipment,"Two Hands, Weapon - Ranged",Attack: Deal INT3 fire damage to a target.
 Mace,1,equipment,"One Hand, Weapon - Melee",Attack: Deal STR3 piercing damage to an adjacent target.
 Holy Symbol,1,equipment,One Hand,You gain 'Minor: Heal target ally for 1.
 Hammer,1,equipment,"One Hand, Weapon - Melee",Attack: Deal STR3 damage to an adjacent target.
