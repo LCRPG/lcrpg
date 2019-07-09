@@ -19,10 +19,18 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['dex'], layout: 'dex'
   text str: data['int'], layout: 'int'
   text str: data['wil'], layout: 'wil'
+  text str: data['fth'], layout: 'fth'
+  text str: data['ocl'], layout: 'ocl'
+  text str: data['arc'], layout: 'arc'
+  text str: data['prm'], layout: 'prm'
   rect layout: 'str'
   rect layout: 'dex'
   rect layout: 'int'
   rect layout: 'wil'
+  rect layout: 'fth'
+  rect layout: 'ocl'
+  rect layout: 'arc'
+  rect layout: 'prm'
   svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/abilities/#{x}.svg"}, layout: 'art'
   svg layout: data['icon']
   save_pdf trim: 37.5, file: outputFile
