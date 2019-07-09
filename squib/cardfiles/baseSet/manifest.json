@@ -1,0 +1,8 @@
+{
+    "name": "Base Set",
+    "files": [
+        { "name": "abilities.csv", "template": "ability" },
+        { "name": "equipment.csv", "template": "equipment"},
+        { "name": "monsters.csv", "template": "enemy" }
+    ]
+}

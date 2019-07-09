@@ -1,0 +1,9 @@
+{
+    "name": "Short Set",
+    "description": "Contains only short versions of the sheets for testing new layouts",
+    "files": [
+        { "name": "shortAbilities.csv", "template": "ability" },
+        { "name": "shortEquipment.csv", "template": "equipment"},
+        { "name": "shortMonsters.csv", "template": "enemy" }
+    ]
+}

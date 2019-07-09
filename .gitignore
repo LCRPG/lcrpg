@@ -10,8 +10,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-/squib/_output/*.png
-/squib/_output/*.pdf
+/squib/_output/*
 ~$*
 .DS_Store
 

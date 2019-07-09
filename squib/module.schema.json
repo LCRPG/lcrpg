@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "manifest",
+    "description": "Defines a module that squib will compile",
+    "type": "object",
+    "required": ["name"],
+    "additionalProperties": false,
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Logical name of this manifest's contents"
+        },
+        "description": {
+            "type": "string",
+            "description": "Describes this manifest file's purpose if necessary"
+        },
+        "files": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/fileDef" },
+            "description": "All files to be compiled under this manifest"
+        },
+        "children": {
+            "type": "array",
+            "items": { 
+                "type": "string"
+            },
+            "description": "All child manifests of this one"
+        }
+    },
+    "definitions": {
+        "fileDef": {
+            "type": "object",
+            "required": [ "name", "template" ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Relative path to the file to compile from this manifest file"
+                },
+                "template": {
+                    "type": "string",
+                    "enum": [ "ability", "enemy", "equipment"]
+                }
+            }
+        }
+    }
+}

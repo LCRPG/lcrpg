@@ -21,6 +21,7 @@ GEM
     gobject-introspection (3.2.7-x64-mingw32)
       glib2 (= 3.2.7)
     highline (1.7.10)
+    json (2.2.0)
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
     native-package-installer (1.0.6)
@@ -58,6 +59,7 @@ PLATFORMS
 
 DEPENDENCIES
   game_icons
+  json
   squib
 
 BUNDLED WITH

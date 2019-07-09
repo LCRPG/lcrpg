@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "esbenp.prettier-vscode",
-        "grapecity.gc-excelviewer"
+        "grapecity.gc-excelviewer",
+        "rebornix.ruby"
     ]
 }

@@ -1,0 +1,4 @@
+{
+    "name": "RPCG Main Manifest",
+    "children": ["baseSet"]
+}
