@@ -32,11 +32,11 @@ str:
   extends: skill
   y: 225
 
-agi:
+dex:
   extends: skill
   y: 300
 
-klg:
+int:
   extends: skill
   y: 375
 
