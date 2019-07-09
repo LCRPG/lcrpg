@@ -34,15 +34,32 @@ str:
 
 dex:
   extends: skill
-  y: 300
+  y: 290
 
 int:
   extends: skill
-  y: 375
+  y: 355
 
 wil:
   extends: skill
-  y: 450
+  y: 420
+
+fth:
+  extends: skill
+  y: 485
+
+ocl:
+  extends: skill
+  y: 550
+
+arc:
+  extends: skill
+  y: 615
+
+prm:
+  extends: skill
+  y: 680
+
 
 type:
   x: 90
