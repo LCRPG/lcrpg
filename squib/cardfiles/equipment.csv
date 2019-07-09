@@ -12,3 +12,5 @@ Hammer,1,equipment,"One Hand, Weapon - Melee",Attack: Deal STR3 damage to an adj
 Handaxe,1,equipment,"One Hand, Weapon - Melee",Minor Attack: Deal STR3 -1 damage to an adjacent target.
 Fists of Steel,1,equipment,Two Hands,Your unarmed attacks deal 1 extra physical damage and may be used as Minor actions.
 Boots of Speed,1,equipment,Feet,You may move as a free action once per turn.
+Divine Aegis,1,equipment,Chest,"Reduce physical damage you take by STR3 and unholy damage you take by FTH3."
+God's Fist,1,equipment,"Two Hands, Weapon - Melee","Either deal 2STR4 physical damage or 2FTH2 holy damage to an adjacent target."
