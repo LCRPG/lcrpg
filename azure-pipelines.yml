@@ -24,11 +24,6 @@ steps:
   workingDirectory: 'squib'
   displayName: 'rake'
 
-# Remove gitkeep from the build artifact
-- task: DeleteFiles@1
-  inputs:
-    contents: 'squib/_output/gitkeep.txt'
-
 - task: PublishBuildArtifacts@1
   inputs:
     pathtoPublish: 'squib/_output'
