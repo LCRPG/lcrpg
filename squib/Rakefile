@@ -5,24 +5,6 @@ load 'deck.rb'
 task default: [:module]
 
 task :module, [:moduleFolder] do |task, args|
-    args.with_defaults(moduleFolder: "cardfiles");
-    buildManifest(args[:moduleFolder], Set[])
-end
-
-task :abilities, [:cardFile,:outputFile] do |task, args|
-    args.with_defaults(cardFile: "cardfiles/baseSet/abilities.csv", outputFile: "baseSet/abilities.pdf")
-    buildAbilities(args[:cardFile],args[:outputFile])
-end
-
-task :equipment, [:cardFile,:outputFile] do |task, args|
-    args.with_defaults(cardFile: "cardfiles/baseSet/equipment.csv", outputFile: "baseSet/equipment.pdf")
-    buildEquipment(args[:cardFile],args[:outputFile])
-end
-
-task :monsters, [:cardFile,:outputFile] do |task, args|
-    args.with_defaults(cardFile: "cardfiles/baseSet/monsters.csv", outputFile: "baseSet/monsters.pdf")
-    buildMonsters(args[:cardFile],args[:outputFile])
-end
-
-task :noOp do
+    args.with_defaults(moduleFolder: "");
+    buildManifest("cardfiles/#{args[:moduleFolder]}", Set[])
 end

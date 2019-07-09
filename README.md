@@ -23,14 +23,8 @@ From there, running `rake` will generate the card files in squib/_output.
 
 ## More advanced builds
 
-If you just want one of the component files you can run  
-`rake abilities`  
-`rake equipment`  
-`rake monsters`  
-  
-if you want to pass it a custom csv to build a smaller pdf, you can run 
-`rake abilities["cardfiles/${input.csv}","${output.pdf}]`  
-replacing the input and output file names.
+If you want to build just a subset of the total card pool (eg. for iterating on a new layout), you can try:
+`rake module["$pathToModule"]` eg. `rake module["shortFiles"]`
 
 ## Standard tooling
 
