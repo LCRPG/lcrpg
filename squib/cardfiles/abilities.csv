@@ -55,5 +55,5 @@ Zeal,2,upgrade,Minor,"Attach to yourself for 2 turns. As long as you've taken no
 Inner Fire,2,upgrade,Major,"Attach to yourself for 2 turns. Whenever you deal damage, deal an extra 1 fire damage.\n\nAttack pick: Deal 1 fire damage to your target(s).",0,0,0,0,3,0,0,0
 Righteous Blow,3,action,Major,"Make a weapon attack. That attack also deals FTH3 Holy damage and WIL3 Fire damage.\n\nAttack pick: Deal yourself 2 fire damage.",4,0,0,4,1,0,0,0
 Mercy,3,action,Minor,"Choose one:\n-Deal FTH2 Holy damage to a target within 6 tiles.\n-Heal an ally for FTH2.",3,0,0,2,0,0,0,0
-Rebuke Undead,1,Minor,"Choose one:\n-Deal 2*FTH3 Holy damage to a target undead and it flees for WIL3 turns.\n-Draw a card.",2,0,0,1,3,0,0,0
+Rebuke Undead,1,action,Minor,"Choose one:\n-Deal 2*FTH3 Holy damage to a target undead and it flees for WIL3 turns.\n-Draw a card.",2,0,0,1,3,0,0,0
 Retribution,4,Major,"Make a weapon attack. If your target has dealt damage to you since your last turn, make 2 weapon attacks against that target instead.",3,0,0,1,1,0,0,0
