@@ -11,9 +11,9 @@
     - how long did a turn take?
     - how long did a round take?
     - how long did a fight take?
--Action economy systems
-  -Point-based
-  -Motivated by self-attachment awkwardness
+- Action economy systems
+  - Point-based
+  - Motivated by self-attachment awkwardness
    
 
 
