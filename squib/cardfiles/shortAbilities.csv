@@ -1,3 +1,3 @@
-name,Qty,icon,type,text,str,agi,klg,wil
-Ice Lance,3,action,Minor,"Deal KLG3 cold damage to any target",0,0,2,0
+name,Qty,icon,type,text,str,dex,int,wil
+Ice Lance,3,action,Minor,"Deal INT3 cold damage to any target",0,0,2,0
 Holy Blow,3,action,Major,"Make a weapon attack against an adjacent enemy. This attack deals an additional 3 Holy damage.",2,0,0,2
