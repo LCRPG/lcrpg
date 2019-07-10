@@ -18,7 +18,12 @@ task :monsters, [:cardFile,:outputFile] do |task, args|
     buildMonsters(args[:cardFile],args[:outputFile])
 end
 
-task :deck => [:abilities,:equipment,:monsters] do
+task :characters, [:outputFile] do |task, args|
+    args.with_defaults(outputFile: "characters.pdf")
+    buildCharacters(args[:outputFile])
+end
+
+task :deck => [:abilities,:equipment,:monsters,:characters] do
 end
 
 task :noOp do
