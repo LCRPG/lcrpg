@@ -13,7 +13,7 @@ Sunburst,3,action,1,Minor,Deal WIL3 holy damage to each enemy.,0,0,1,2,0,0,0,0
 Blinding Spray,2,action,2,Major,Up to 3 enemies attack as if their opponents are dodging until your next turn.,0,3,1,0,0,0,0,0
 Surge,2,upgrade,1,Minor,Regain 2*WIL3 life. Attach this card to your character for one turn.\n\nDamage dealt by you is increased by 2.,2,0,0,2,0,0,0,0
 Sunder,2,upgrade,1,Minor,Attach this to an Enemy for one turn.\n\nReduce all of target's damage resistances by 2*KLG3 or 2*STR3. They can't go lower than 0.,3,0,1,0,0,0,0,0
-Mass Heal,2,action,2,Major,Each ally regains 2*WIL3 hp.,0,0,0,4,0,0,0,0
+Mass Heal,2,action,2,Major,Each ally regains 2*FTH3 hp.,0,0,0,0,4,0,0,0
 Dancing Blade,3,action,1,Minor,"Deal AGI3 damage, then you may move.",1,3,0,0,0,0,0,0
 Siphon Life,3,action,2,Major,Deal WIL3 Holy damage. Then heal an Ally for the damage dealt.,0,0,2,2,0,0,0,0
 Double Slash,3,action,2,Major,"Make a weapon attack against an adjacent enemy, then make a weapon attack against an adjacent enemy.",3,1,0,0,0,0,0,0
@@ -58,3 +58,6 @@ Hold Monster,4,upgrade,2,Enchantment,"Contest ARC vs WIL with any enemy. If you 
 Haste,2,upgrade,2,Enchantment,"Attach to any ally. At that start of that ally's turn, they replenish 2 additional energy.",0,0,1,0,0,0,3,0
 Consider,2,action,1,Spell,Scry 2. Draw a card.\nRecycle 1.,0,0,4,0,0,0,1,0
 Resistance,2,action,1,Flash Enchantment,Target ally gains 1 Armor until the end of their next turn.,0,0,2,0,0,0,2,0
+Bless Water,2,action,1,Spell,Put FTH3 Vials of Holy Water into ally decks.\nPick - Put a Vial of Holy Water in your hand.,0,0,0,1,2,0,0,0
+Rebuke Undead,2,action,1,Spell,"Choose one:\n-Deal 2*FTH3 Holy damage to a target undead and it flees for WIL3 turns.\n-Draw a card.",2,0,0,1,3,0,0,0
+Favor of the Sun,2,upgrade,2,Enchantment - Aura,
