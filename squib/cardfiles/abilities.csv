@@ -52,9 +52,9 @@ Mercy,3,action,1,Minor,"Choose one:\n-Deal FTH2 Holy damage to a target within 6
 Rebuke Undead,1,action,1,Minor,"Choose one:\n-Deal 2*FTH3 Holy damage to a target undead and it flees for WIL3 turns.\n-Draw a card.",2,0,0,1,3,0,0,0
 Retribution,4,action,2,Major,"Make a weapon attack. If your target has dealt damage to you since your last turn, make 2 weapon attacks against that target instead.",3,0,0,1,1,0,0,0
 Think Ahead,4,action,1,Flash Spell,Draw two cards. Put one card from your hand on top of your deck.\nRecycle 1.,0,0,3,0,0,0,2,0
-Interrupt,4,action,2,Flash Spell,Contest INT with any enemy. If you win, counter target ability that enemy controls.,0,0,4,0,0,0,1,0
-Borrowed Time,2,upgrade,0,Flash Enchantment,Gain 3 energy. Attach this to yourself for 3 turns. At the start of your turn, replenish 1 less energy.,0,0,2,0,0,0,4,0
-Hold Monster,4,upgrade,2,Enchantment,Contest ARC vs WIL with any enemy. If you win, attach this card to that enemy. That enemy can't take actions. At the end of that enemy's turn, contest ARC vs WIL. If you lose, discard this card.,0,0,1,0,0,0,3,0
-Haste,2,upgrade,2,Enchantment,Attach to any ally. At that start of that ally's turn, they replenish 2 additional energy.,0,0,1,0,0,0,3,0
+Interrupt,4,action,2,Flash Spell,"Contest INT with any enemy. If you win, counter target ability that enemy controls.",0,0,4,0,0,0,1,0
+Borrowed Time,2,upgrade,0,Flash Enchantment,"Gain 3 energy. Attach this to yourself for 3 turns. At the start of your turn, replenish 1 less energy.",0,0,2,0,0,0,4,0
+Hold Monster,4,upgrade,2,Enchantment,"Contest ARC vs WIL with any enemy. If you win, attach this card to that enemy. That enemy can't take actions. At the end of that enemy's turn, contest ARC vs WIL. If you lose, discard this card.",0,0,1,0,0,0,3,0
+Haste,2,upgrade,2,Enchantment,"Attach to any ally. At that start of that ally's turn, they replenish 2 additional energy.",0,0,1,0,0,0,3,0
 Consider,2,action,1,Scry 2. Draw a card.\nRecycle 1.,0,0,4,0,0,0,1,0
 Resistance,2,action,1,Flash Enchantment,Target ally gains 1 Armor until the end of their next turn.,0,0,2,0,0,0,2,0
