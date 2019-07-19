@@ -56,5 +56,5 @@ Interrupt,4,action,2,Flash Spell,"Contest INT with any enemy. If you win, counte
 Borrowed Time,2,upgrade,0,Flash Enchantment,"Gain 3 energy. Attach this to yourself for 3 turns. At the start of your turn, replenish 1 less energy.",0,0,2,0,0,0,4,0
 Hold Monster,4,upgrade,2,Enchantment,"Contest ARC vs WIL with any enemy. If you win, attach this card to that enemy. That enemy can't take actions. At the end of that enemy's turn, contest ARC vs WIL. If you lose, discard this card.",0,0,1,0,0,0,3,0
 Haste,2,upgrade,2,Enchantment,"Attach to any ally. At that start of that ally's turn, they replenish 2 additional energy.",0,0,1,0,0,0,3,0
-Consider,2,action,1,Scry 2. Draw a card.\nRecycle 1.,0,0,4,0,0,0,1,0
+Consider,2,action,1,Spell,Scry 2. Draw a card.\nRecycle 1.,0,0,4,0,0,0,1,0
 Resistance,2,action,1,Flash Enchantment,Target ally gains 1 Armor until the end of their next turn.,0,0,2,0,0,0,2,0
