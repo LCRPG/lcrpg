@@ -1,4 +1,4 @@
-name,Qty,icon,type,energy,text,str,dex,int,wil,fth,ocl,arc,prm
+name,Qty,icon,energy,type,text,str,dex,int,wil,fth,ocl,arc,prm
 Dodge,3,upgrade,1,Minor,Attach this to your character for one turn.\n\nDamage you take is reduced by your LUCK.,0,2,0,0,0,0,0,0
 Block,6,upgrade,2,Major,Attach this to your character for one turn.\n\nPhysical Damage you take is reduced by half.,2,0,0,0,0,0,0,0
 Cleave,5,action,2,Major,Make a weapon attack against each adjacent enemy.,3,1,0,0,0,0,0,0
