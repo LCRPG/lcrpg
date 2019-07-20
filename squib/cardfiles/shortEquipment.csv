@@ -1,3 +1,4 @@
 name,Qty,icon,type,text
-Divine Aegis,1,equipment,Chest,"Reduce physical damage you take by STR3 and unholy damage you take by FTH3."
-God's Fist,1,equipment,"Two Hands, Weapon - Melee","Either deal 2STR4 physical damage or 2FTH2 holy damage to an adjacent target."
+Plate Armor,2,equipment,Chest,Reduce all physical damage you take by STR2.
+Leather Vest,3,equipment,Chest,Reduce all physical damage you take by DEX1.
+Longbow,1,equipment,"Two Hands, Weapon",Deal 2 * DEX3 damage to any target.
