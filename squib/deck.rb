@@ -96,6 +96,7 @@ Squib::Deck.new cards: 8, layout: layouts do
   text str: 'OCL:', layout: 'ocl'
   text str: 'ARC:', layout: 'arc'
   text str: 'PRM:', layout: 'prm'
+  rect layout: 'energy'
   save_pdf trim: 37.5, file: outputFile
 end
 end
