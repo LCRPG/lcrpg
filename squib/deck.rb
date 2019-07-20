@@ -5,8 +5,7 @@ require 'yaml'
 def buildAbilities(cardfile="cardfiles/abilities.csv", outputFile="abilities.pdf")
 #All Ability Cards
 data = Squib.csv file: cardfile
-layouts = ['layouts/ability.yml', 'icons.yml']
-icons =  YAML.load(File.read('icons.yml'))
+layouts = ['layouts/ability.yml']
 
 Squib::Deck.new cards: data['name'].size, layout: layouts do
   background color: 'white'
@@ -32,7 +31,8 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   rect layout: 'arc'
   rect layout: 'prm'
   svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/abilities/#{x}.svg"}, layout: 'art'
-  svg layout: data['icon']
+  text str: data['energy'], layout: 'energy'
+  rect layout: 'energy'
   save_pdf trim: 37.5, file: outputFile
 end
 end
@@ -74,6 +74,28 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['DR'], layout: 'bonus2Text'
   svg file: GameIcons.get('walking-boot').file, layout: 'bonus3'
   text str: data['Speed'], layout: 'bonus3Text'
+  save_pdf trim: 37.5, file: outputFile
+end
+end
+
+def buildCharacters(outputFile="characters.pdf")
+
+layouts = ['layouts/character.yml']
+
+Squib::Deck.new cards: 8, layout: layouts do
+  background color: 'white'
+  rect layout: 'cut'
+  rect layout: 'safe'
+  rect layout: 'art'
+  line layout: 'name'
+  text str: 'STR:', layout: 'str'
+  text str: 'AGI:', layout: 'agi'
+  text str: 'INT:', layout: 'int'
+  text str: 'WIL:', layout: 'wil'
+  text str: 'FTH:', layout: 'fth'
+  text str: 'OCL:', layout: 'ocl'
+  text str: 'ARC:', layout: 'arc'
+  text str: 'PRM:', layout: 'prm'
   save_pdf trim: 37.5, file: outputFile
 end
 end
