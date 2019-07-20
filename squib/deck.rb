@@ -77,3 +77,25 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   save_pdf trim: 37.5, file: outputFile
 end
 end
+
+def buildCharacters(outputFile="characters.pdf")
+
+layouts = ['layouts/character.yml']
+
+Squib::Deck.new cards: 8, layout: layouts do
+  background color: 'white'
+  rect layout: 'cut'
+  rect layout: 'safe'
+  rect layout: 'art'
+  line layout: 'name'
+  text str: 'STR:', layout: 'str'
+  text str: 'AGI:', layout: 'agi'
+  text str: 'INT:', layout: 'int'
+  text str: 'WIL:', layout: 'wil'
+  text str: 'FTH:', layout: 'fth'
+  text str: 'OCL:', layout: 'ocl'
+  text str: 'ARC:', layout: 'arc'
+  text str: 'PRM:', layout: 'prm'
+  save_pdf trim: 37.5, file: outputFile
+end
+end
