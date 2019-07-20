@@ -20,3 +20,13 @@ Summon Forest,2,1,Enchantment,"Summon a tree to your or an adjacent space. While
 Summon Vines,3,2,Enchantment,"Summon vines to a space for 3 turns. Characters who start their turn or move to a space with vines become immobilized, and take PRM3 damage.",0,2,0,0,0,0,0,2
 Stunning Shot,3,2,Enchantment,Make a ranged weapon attack against an enemy. That enemy recovers 2 less energy on their next turn.,0,4,0,0,0,0,0,0
 Aimed Shot,4,3,Spell,"Make a ranged weapon attack with + 2 Depth. You may choose a second card from the revealed cards, and include it's attributes and augments to your attack.",0,3,0,0,0,0,0,0
+Bless Water,2,action,1,Spell,Put FTH3 Vials of Holy Water into ally decks and FTH3 Vials of Holy Water into your deck.\nPick - Put a Vial of Holy Water in your hand.,0,0,0,1,2,0,0,0
+Rebuke Undead,2,action,1,Spell,"Choose one:\n-Deal 2*FTH3 Holy damage to a target undead and it flees for WIL3 turns.\n-Draw a card.",2,1,0,1,3,0,0,0
+Favor of the Sun,3,upgrade,2,Enchantment,Attach to an ally for 1 turn. Enchanted player's checks are 2 deeper.,0,2,0,0,3,2,0,0
+Healix,3,action,2,Flash Spell,Deal FTH3 damage to an enemy and heal an ally for FTH3.\nPick - Deal 1 damage to an enemy and you heal 1.,0,0,0,2,2,1,0,0
+Holy Nova,2,action,2,Spell,Deal FTH2 damage to each enemy and heal each ally for FTH2.,0,0,0,0,4,0,0,0
+Divine Intervention,1,action,3,Spell,Each other ally may play a card now.,0,0,0,0,0,0,0,0
+Channel Life,3,action,1,Spell,Heal each adjacent target for FTH4.,0,0,0,2,3,0,0,0
+Prayer,2,action,2,Spell,Each ally may refresh FTH1 card(s).\nPick - Another ally may refresh a card.,0,1,0,0,3,0,0,0
+Guidance,2,upgrade,1,Enchantment,Attach to an ally for  1 round. Increase damage done by that hero by 2.,0,1,0,0,3,0,0,0
+Holy Water,6,action,0,Fleeting Spell,Choose one:\n-Draw a card.\n-Deal ANY2 Holy damage to an undead.\n-Heal ANY2 damage.\n-Refresh 1 card.,1,1,1,1,1,1,1,1
