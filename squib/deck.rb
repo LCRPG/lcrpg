@@ -5,8 +5,7 @@ require 'yaml'
 def buildAbilities(cardfile="cardfiles/abilities.csv", outputFile="abilities.pdf")
 #All Ability Cards
 data = Squib.csv file: cardfile
-layouts = ['layouts/ability.yml', 'icons.yml']
-icons =  YAML.load(File.read('icons.yml'))
+layouts = ['layouts/ability.yml']
 
 Squib::Deck.new cards: data['name'].size, layout: layouts do
   background color: 'white'
@@ -32,7 +31,8 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   rect layout: 'arc'
   rect layout: 'prm'
   svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/abilities/#{x}.svg"}, layout: 'art'
-  svg layout: data['icon']
+  text str: data['energy'], layout: 'energy'
+  rect layout: 'energy'
   save_pdf trim: 37.5, file: outputFile
 end
 end
