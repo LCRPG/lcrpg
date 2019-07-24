@@ -17,6 +17,15 @@ steps:
   inputs:
     versionSpec: '>= 2.5'
 
+- task: CacheBeta@0
+  inputs:
+    key: |
+      bundler
+      $(Agent.OS)
+      $(Build.SourcesDirectory)/squib/Gemfile.lock
+    path: $(BUNDLE_CACHE_PATH)
+  displayName: 'Cache bundler'
+
 - script: |
     gem install bundler
     bundler install --retry=3 --jobs=4
