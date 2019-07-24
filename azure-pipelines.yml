@@ -17,9 +17,10 @@ steps:
 - task: CacheBeta@0
   inputs:
     key: |
+      bundler
       $(Agent.OS)
       $(Build.SourcesDirectory)/squib/Gemfile.lock
-    path: $(Pipeline.Workspace)/.cache/bundler
+    path: $(BUNDLE_CACHE_PATH)
   displayName: 'Cache bundler'
 
 - script: |
