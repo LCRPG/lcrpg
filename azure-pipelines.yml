@@ -20,6 +20,14 @@ steps:
   workingDirectory: 'squib'
   displayName: 'bundle install'
 
+- task: CacheBeta@0
+  inputs:
+    key: |
+      $(Agent.OS)
+      $(Build.SourcesDirectory)/squib/Gemfile.lock
+    path: $(Pipeline.Workspace)/.cache/bundler
+  displayName: 'Cache bundler'
+
 - script: rake
   workingDirectory: 'squib'
   displayName: 'rake'
