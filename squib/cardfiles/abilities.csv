@@ -30,3 +30,23 @@ Channel Life,3,action,1,Spell,Heal each adjacent target for FTH4.,0,0,0,2,3,0,0,
 Prayer,2,action,2,Spell,Each ally may refresh FTH1 card(s).\nPick - Another ally may refresh a card.,0,1,0,0,3,0,0,0
 Guidance,2,upgrade,1,Enchantment,Attach to an ally for  1 round. Increase damage done by that hero by 2.,0,1,0,0,3,0,0,0
 Holy Water,6,action,0,Fleeting Spell,Choose one:\n-Draw a card.\n-Deal ANY2 Holy damage to an undead.\n-Heal ANY2 damage.\n-Refresh 1 card.,1,1,1,1,1,1,1,1
+Brew Minor Potion,3,action,2,Spell,Choose a potion and put ARC3 copies of it into your deck.\n-Rejuvination\n-Sharp Mind\n-Clarity,0,0,0,0,0,0,2,0
+Brew Potion,2,action,2,Spell,Choose a potion and put ARC3 copies of it into your deck.\n-Alacrity\n-Enlargement\n-Premonition,0,0,0,0,0,0,2,0
+Brew Major Potion,1,action,2,Spell,Choose a potion and put ARC3 copies of it into your deck.\n-Bird in a Botle\n-Vigor\n-Brain Power,0,0,0,0,0,0,2,0
+Mix Bomb,2,action,2,Spell,Choose a bomb and put ARC3 copies of it into your deck.\n-Fire\n-Frost\n-Flash,0,0,0,0,0,0,2,0
+Distill Venom,1,action,2,Spell,Choose a venom and put ARC3 copies of it into your deck.\n-Debilitation\n-Lethargy\n-Confusion,0,0,0,0,0,0,2,0
+Rejuvination Potion,3,action,1,Fleeting Spell,You heal for 2.\n\n1:Give this card to an adjacent ally\n\nAction Aug: Put this card into your hand.,1,1,1,1,1,1,1,1
+Potion of Sharp Minds,3,action,1,Fleeting Spell,Look at the top two cards of your deck. Put one into your hand and the other on the bottom.\n\n1:Give this card to an adjacent ally\n\nAction Aug: Put this card into your hand.,1,1,1,1,1,1,1,1
+Potion of Clarity,3,action,1,Fleeting Spell,"The next time you would make a check, instead you get a 4.\n\n1:Give this card to an adjacent ally\n\nAction Aug: Put this card into your hand.",1,1,1,1,1,1,1,1
+Potion of Alacrity,3,action,1,Fleeting Spell,Move up to 2 tiles now.\n\n1:Give this card to an adjacent ally\n\nAction Aug: Put this card into your hand.,1,1,1,1,1,1,1,1
+Potion of Enlargement,3,upgrade,1,Fleeting Enchantment,You grow to 2x2 until the end of your next turn. All strength checks are increased by 2.\n\n1:Give this card to an adjacent ally\n\nAction Aug: Put this card into your hand.,1,1,1,1,1,1,1,1
+Potion of Premonition,3,action,1,Fleeting Flash Spell,Look at the top 4 cards of your deck. Put 1 into your hand, 1 on the bottom, and the others on top in any order.\n\n1:Give this card to an adjacent ally\n\nAction Aug: Put this card into your hand.,1,1,1,1,1,1,1,1
+Bird in a Bottle,3,action,2,Fleeting Spell,Summon a Roc.\n\n1:Give this card to an adjacent ally\n\nAction Aug: Put this card into your hand.,1,1,1,1,1,1,1,1
+Potion of Vigor,3,action,1,Fleeting Spell,Gain 2 Energy.\n\n1:Give this card to an adjacent ally\n\nAction Aug: Put this card into your hand.,1,1,1,1,1,1,1,1
+Potion of Brain Power,3,action,2,Fleeting Spell,"Deal yourself 3 Fire damage. Search your deck for a card and put it in your hand, then shuffle your deck."\n\n1:Give this card to an adjacent ally\n\nAction Aug: Put this card into your hand.,1,1,1,1,1,1,1,1
+Fire Bomb,3,action,1,Fleeting Spell,Deal ARC3+2 Fire damage to any target and each adjacent target.\n\nAction Aug: Deal yourself 3 Fire damage.,0,0,0,0,0,0,4,0
+Frost Bomb,3,action,1,Fleeting Spell,Deal ARC1 Frost damage to any target and each adjacent target. They cannot move next turn.\n\nAction Aug: Deal yourself 1 Cold damage. You cannot move next turn.,0,0,0,0,0,0,4,0
+Flash bomb,3,action,1,Fleeting Spell, One target and each adjacent target cannot target non-adjacent targets next turn,\n\nAction Aug: You may not target non-adjacent targets next turn.,0,0,0,0,0,0,4,0
+Debilitating Venom,2,upgrade,1,Fleeting Enchantment - Venom,"Remove all Venoms from your weapon, then attach this to your weapon with three counters. Whenever this weapon damages an enemy, move a counter to it. Reduce damage dealt by that target by 1.\n\nAction Aug:Attach this to your weapon with one counter.",0,0,0,0,0,0,0,0
+Lethargic Venom,2,upgrade,1,Fleeting Enchantment - Venom,"Remove all Venoms from your weapon, then attach this to your weapon with three counters. Whenever this weapon damages an enemy, move a counter to it. That target gets 1 less energy per turn.\n\nAction Aug:Attach this to your weapon with one counter.",0,0,0,0,0,0,0,0
+Confusion Venom,2,upgrade,1,Fleeting Enchantment - Venom,"Remove all Venoms from your weapon, then attach this to your weapon with three counters. Whenever this weapon damages an enemy, move a counter to it. It chooses actions and targets at random.\n\nAction Aug:Attach this to your weapon with one counter.",0,0,0,0,0,0,0,0
