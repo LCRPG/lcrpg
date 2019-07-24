@@ -74,28 +74,44 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
   text str: data['DR'], layout: 'bonus2Text'
   svg file: GameIcons.get('walking-boot').file, layout: 'bonus3'
   text str: data['Speed'], layout: 'bonus3Text'
+  text str: data['energy'], layout: 'energy'
   save_pdf trim: 37.5, file: outputFile
 end
 end
 
 def buildCharacters(outputFile="characters.pdf")
+  layouts = ['layouts/character.yml']
 
-layouts = ['layouts/character.yml']
-
-Squib::Deck.new cards: 8, layout: layouts do
-  background color: 'white'
-  rect layout: 'cut'
-  rect layout: 'safe'
-  rect layout: 'art'
-  line layout: 'name'
-  text str: 'STR:', layout: 'str'
-  text str: 'AGI:', layout: 'agi'
-  text str: 'INT:', layout: 'int'
-  text str: 'WIL:', layout: 'wil'
-  text str: 'FTH:', layout: 'fth'
-  text str: 'OCL:', layout: 'ocl'
-  text str: 'ARC:', layout: 'arc'
-  text str: 'PRM:', layout: 'prm'
-  save_pdf trim: 37.5, file: outputFile
+  Squib::Deck.new cards: 8, layout: layouts do
+    background color: 'white'
+    rect layout: 'cut'
+    rect layout: 'safe'
+    rect layout: 'art'
+    line layout: 'name'
+    text str: 'STR:', layout: 'str'
+    text str: 'AGI:', layout: 'agi'
+    text str: 'INT:', layout: 'int'
+    text str: 'WIL:', layout: 'wil'
+    text str: 'FTH:', layout: 'fth'
+    text str: 'OCL:', layout: 'ocl'
+    text str: 'ARC:', layout: 'arc'
+    text str: 'PRM:', layout: 'prm'
+    save_pdf trim: 37.5, file: outputFile
+  end
 end
+
+def buildEnvironments(outputFile="environments.pdf")
+  data = Squib.csv file: "cardfiles/environment.csv"
+  layouts = ['layouts/environment.yml']
+
+  Squib::Deck.new cards: data['name'].size, layout: layouts do
+    background color: 'white'
+    rect layout: 'cut'
+    rect layout: 'safe'
+    text str: data['name'], layout: 'name'
+    text str: data['desc'], layout: 'desc'
+    rect layout: 'art'
+    svg file: data['name'].map {|x| x.downcase.gsub(/ /, "")}.map { |x| "../resources/images/cardart/environment/#{x}.svg"}, layout: 'art'
+    save_pdf trim: 37.5, file: outputFile
+  end
 end

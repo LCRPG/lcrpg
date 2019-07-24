@@ -23,7 +23,12 @@ task :characters, [:outputFile] do |task, args|
     buildCharacters(args[:outputFile])
 end
 
-task :deck => [:abilities,:equipment,:monsters,:characters] do
+task :environments, [:outputFile] do |task, args|
+    args.with_defaults(outputFile: "environments.pdf")
+    buildEnvironments(args[:outputFile])
+end
+
+task :deck => [:abilities,:equipment,:monsters,:characters,:environments] do
 end
 
 task :noOp do

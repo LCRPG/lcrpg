@@ -1,0 +1,6 @@
+name,Qty,desc
+Zombify,4,Create a Zombie on a tile in the same rank.
+Demonize,2,Create a Lesser Demon on a tile in the same rank.
+Glimpse the Beyond,2,Each player Mills 2.
+Induce Frenzy,2,"Target player reveals the top card of their deck. You may have them play that card, choosing targets for them if necessary. Those targets may be any target. Otherwise, they discard that card."
+Grasp of the Void,2,Move target player up to 2 squares in any direction. They take 4 Necrotic damage.

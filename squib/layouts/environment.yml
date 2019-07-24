@@ -1,0 +1,55 @@
+#This layout inspired by popular fantasy games
+name:
+  x: 90
+  y: 90
+  width: 500
+  height: 50
+
+description:
+  x: 100
+  y: 800
+  width: 625
+  height: 275
+  valign: middle
+  align: center
+  font_size: 6
+desc: # alias
+  extends: description
+
+art:
+  x: 80
+  y: 200
+  width: 665
+  height: 500
+
+copyright:
+  x: 75
+  y: 1025
+  width: 675
+  height: 25
+  font_size: 5
+  align: center
+  valign: bottom
+#aliases for copyright
+copy:
+  extends: copyright
+credit:
+  extends: copyright
+credits:
+  extends: copyright
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3

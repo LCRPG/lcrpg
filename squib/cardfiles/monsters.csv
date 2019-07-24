@@ -1,11 +1,14 @@
-name,Qty,Health,DR,Speed,text
-Goblin,3,20,1,3,Major: Deal 3 damage to an adjacent target\n\nMinor: Deal 2 damage to a target
-Ogre,2,40,2,5,Major: Deal 5 damage to an adjacent target\n\nMajor: Deal 3 damage to an adjacent target\nand 2 damage to a target adjacent to that target
-Skeleton Archer,2,16,2,3,Major: deal 4 damage to a target\n\nMinor: Regain 2 health
-Zombie,4,6,1,1,Major: Deal 3 damage to an adjacent target
-Necromancer,1,60,1,7,Major: Summon a Zombie\n\nMinor: deal 2 necrotic damage to a target
-Bandit,3,10,0,3,Major: Deal 4 Physical damage to an adjacent target
-Bandit Soldier,3,25,1,5,Major: Deal 5 Physical damage to an adjacent target\n\nMinor: Block
-Bandit Slinger,3,15,0,3,"Major: Deal 3 Physical damage to a target\n\nMajor(1): Deal 5 fire damage to a target, and 3 fire damage to each enemy adjacent to that target"
-Bandit Captain,2,30,1,7,Major: Deal 6 Physical damage to an adjacent target\n\nMinor: Other Ally Bandits deal +1 damage until your next turn.
-Bandit Lord,1,45,2,7,"Major: Deal 7 Physical damage to an adjacent target\n\nMinor: Summon a Bandit Soldier or Bandit Slinger"
+name,Qty,Health,DR,Speed,energy,text
+Goblin,3,20,1,3,3,2: Deal 3 damage to an adjacent target\n\n1: Deal 2 damage to a target
+Ogre,2,40,2,5,4,2: Deal 5 damage to an adjacent target\n\n2: Deal 3 damage to an adjacent target\nand 2 damage to a target adjacent to that target
+Skeleton Archer,2,16,2,3,3,2: deal 4 damage to a target\n\n1: Regain 2 health
+Zombie,4,6,1,1,2,2: Deal 3 damage to an adjacent target
+Necromancer,1,60,1,7,4,2: Summon a Zombie\n\n1: deal 2 necrotic damage to a target
+Bandit,3,10,0,3,3,2: Deal 4 Physical damage to an adjacent target
+Bandit Soldier,3,25,1,5,3,2: Deal 5 Physical damage to an adjacent target\n\n1: Block
+Bandit Slinger,3,15,0,3,3,"2: Deal 3 Physical damage to a target\n\n2(1): Deal 5 fire damage to a target, and 3 fire damage to each enemy adjacent to that target"
+Bandit Captain,2,30,1,7,3,2: Deal 6 Physical damage to an adjacent target\n\n1: Other Ally Bandits deal +1 damage until your next turn.
+Bandit Lord,1,45,2,7,3,"2: Deal 7 Physical damage to an adjacent target\n\n1: Summon a Bandit Soldier or Bandit Slinger"
+Eldritch Altar,1,60,0,19,3,"2: Play the top card of the Eldritch Altar deck.\n\n1: Deal 1 Necrotic damage to any player. If this successfully deals damage, that player Mills 1."
+Eldritch Cultist,2,25,0,1,2,"2: Play the top card of the Eldritch Altar deck. Take 2 Necrotic damage."
+Lesser Demon,4,20,1,5,3,"2: Deal 4 Slashing damage. If this damage isn't reduced, gain 1 Energy."
