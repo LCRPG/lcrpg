@@ -9,22 +9,14 @@ trigger:
 pool:
   vmImage: 'Ubuntu-16.04'
   
-variables:
-  BUNDLE_PATH: $(Pipeline.Workspace)/.cache/bundle
+
 
 steps:
 - task: UseRubyVersion@0
   inputs:
     versionSpec: '>= 2.5'
 
-- task: CacheBeta@0
-  inputs:
-    key: |
-      bundler
-      $(Agent.OS)
-      $(Build.SourcesDirectory)/squib/Gemfile.lock
-    path: $(BUNDLE_CACHE_PATH)
-  displayName: 'Cache bundler'
+
 
 - script: |
     gem install bundler
