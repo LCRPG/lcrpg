@@ -5,7 +5,7 @@ When attacked, a character can attempt to dodge or power through the hit. In doi
 of cards, then use the resulting sum to attempt to mitigate the attack.
 
 The number of cards that are flipped and selected can be modified by a character's inbuilt traits. For example, a monk-style character
-may get to look at more cards or select more cards when attempting to dodge.
+may get to look at more cards or select more cards when attempting to dodge, but not when attempting to power through.
 
 ## Hit / Miss + Wounds
 When a character is hit with an attack or other damaging effect, they take a wound. Specific effects may have modifiers that inflict
